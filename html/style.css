@@ -1,0 +1,55 @@
+.caja-inicio{
+    background-color: #eeaa88;
+}
+
+#logo{
+    width: 20rem;
+    padding-left: 1rem;
+}
+
+nav a{
+    background-color: #eedd99;
+    margin: .2rem;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+main{
+    background-color: #eec290;
+}
+
+.carousel-caption{
+    bottom: auto !important;
+}
+
+.carousel-inner img{
+    height: 25rem;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #eeaa88;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.form-user{
+    height: 31.5rem;
+}
+
+.table-1, .table-2, .table-3{
+    height: 30.5rem;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    #style-categoria{
+        display: flex;
+        flex-direction: column;
+    }
+    #style-categoria label{
+        width: 14rem;
+    }
+}
